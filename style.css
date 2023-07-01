@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game {
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    margin-top: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.a1, .a2, .a3, .b1, .b2, .b3 {
+    border-bottom: solid black;
+}
+
+.a1, .a2, .b1, .b2, .c1, .c2 {
+    border-right: solid black;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder
+}
+
+.setre {
+    margin-top: 50px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
